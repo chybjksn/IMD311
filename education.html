@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>Education</title>
+    </head>
+    <body bgcolor="#8FBC8F"></body>
+    
+    <style>
+    body {
+      background-image: url('images/daisy2.jpg');
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+      
+    }
+    </style>
+
+    <style>
+        body {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        
+        /* Style the tab */
+        .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #f1f1f1;
+        }
+        
+        /* Style the buttons inside the tab */
+        .tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+        
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color: #ddd;
+        }
+        
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-color: #ccc;
+        }
+        
+        /* Style the tab content */
+        .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border: 1px solid #ccc;
+          border-top: none;
+        }
+        </style>
+
+<body>
+
+    <h1><font color="#B22222">My Educational Journey &#127891</font></h1>
+    
+    
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Primary School')">Primary School</button>
+      <button class="tablinks" onclick="openCity(event, 'Secondary School')">Secondary School</button>
+      <button class="tablinks" onclick="openCity(event, 'University')">University</button>
+    </div>
+    
+    <div id="Primary School" class="tabcontent">
+      <h2>Sekolah Kebangsaan Pedas</h2>
+      <p>Sekolah Kebangsaan Pedas is located on Jalan Kundur, Kg Pedas Hilir, about 1km away from where I live.
+        Sometimes I just commute to school by walking if there is no vehicle to go to school.
+        From 2009 until 2014, I attended Sekolah Kebangsaan Pedas to further my education.
+        Primary school is, in my opinion, the most pleasurable time to learn since there is less pressure 
+        to perform academically than there is as we become older. 
+        I really enjoy spending time with my friends and always study together until we get excellent results in UPSR.</p>
+    <p>
+      <img src="images/skp.jpg" width="200px" align="top right" hspace="30" border="3">
+      <img src="images/skp2.jfif" width="300px" height="200px" align="top right" hspace="30" border="3">
+      <img src="images/skp3.jpg" width="300px" height="200px" hspace="30" border="3">
+    </p>
+    </div>
+    
+    <div id="Secondary School" class="tabcontent">
+      <h3><font size="5">Maahad Ahmadi Negeri Sembilan (MANS)</font></h3>
+      <p>Maahad Ahmadi Gemencheh, better known as MANS, is a religious school, which is where I studied from 2015 to 2019.
+         I took the tahfiz course and thank God I managed to memorize 30 juz Al-Quran in 2018, 
+         when I was form 4. This school was recommended by my father because he wanted me
+        to memorize the Quran. I am very grateful for being given good and supportive friends and teachers
+         throughout my journey of studying academic knowledge and memorizing the Al-Quran. 
+        The picture below shows some of my moments at Maahad Ahmadi with other friends.</p>
+        <p>
+            <img src="images/maahad.PNG" width="200px" hspace="30" border="3">
+            <img src="images/maahad2.PNG" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/form55.JPG" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/form5.JPG" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/4got2.JPG" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/IMG_0912.JPG" width="300px" height="200px" hspace="30" border="3">
+        </p>
+    </div>
+    
+    <div id="University" class="tabcontent">
+      <h4><font size="5">UiTM Negeri Sembilan Kampus Rembau</font></h4>
+      <p>After finishing SPM, I applied to several universities to enter and finally UPU 
+        decided that I would be at UiTM Rembau Campus majoring in Information Management. 
+        I am very grateful and feel very lucky because it is very close from my house only about 15 minutes away. 
+        Starting from semester 1 until semester 3, we all only study online due to covid-19. 
+        Since semester 4, we have been allowed to come in and study face to face. Since then, 
+        I started getting to know other friends more deeply and getting closer to them. 
+        My diploma journey felt very fun and happy with the presence of friends who always understand each other</p>
+        <p>
+            <img src="images/uitm.webp" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/ghombau.jpg" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/5c.jpg" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/4c.jpg" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/sir.jpg" width="300px" height="200px" hspace="30" border="3">
+            <img src="images/gmm2.jpg" width="300px" height="200px" hspace="30" border="3">
+        </p>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+
+    </body>
+<br>
+
+<a href="index.html">Home</a>
+<a href="biodata.html">Profile</a>
+<a href="contact.html">Contact</a>
+<a href="family.html">Family</a>
+<a href="gallery.html">Gallery</a>
+
+
+</html>
